@@ -1,15 +1,15 @@
-html {
-    height: 349px;
-}
 @font-face {
     font-family: "CursedTimerUlil-Aznm";
     src: url("CursedTimerUlil-Aznm.ttf");
 }
 body {
-    margin: 100px;
+    margin: o;
+    height: 100vh;
     background: #1B244A;
 }
 .container {
+    align-items: center;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     font-family: "CursedTimerUlil-Aznm";
@@ -42,10 +42,13 @@ body {
     font-weight: lighter;
 }
 .gray {
+    width: 270px;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
 }
 .out {
     gap: 50px;
