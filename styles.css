@@ -24,6 +24,7 @@ body {
     font-size: 80px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
 }
 .blk {
     margin-left: auto;
@@ -40,6 +41,7 @@ body {
     font-size: 150px;
     padding-top: 100px;
     font-weight: lighter;
+    user-select: none;
 }
 #guest-score-element {
     margin: 0;
@@ -47,6 +49,7 @@ body {
     font-size: 150px;
     padding-top: 100px;
     font-weight: lighter;
+    user-select: none;
 }
 .gray {
     width: 270px;

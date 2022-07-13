@@ -22,4 +22,28 @@ function homePlusDos() {
     homeScore += 2
     homeScoreElement.textContent = homeScore.toString().padStart(2, '0')
 }
-homePlusOne.addEventListener("click", homePlusDos) 
+homePlusTwo.addEventListener("click", homePlusDos) 
+
+function homePlusTres() {
+    homeScore += 3
+    homeScoreElement.textContent = homeScore.toString().padStart(2, '0')
+}
+homePlusThree.addEventListener("click", homePlusTres)
+
+function guestPlusUno() {
+    guestScore += 1
+    guestScoreElement.textContent = guestScore.toString().padStart(2, '0')
+}
+guestPlusOne.addEventListener("click", guestPlusUno) 
+
+function guestPlusDos() {
+    guestScore += 2
+    guestScoreElement.textContent = guestScore.toString().padStart(2, '0')
+}
+guestPlusTwo.addEventListener("click", guestPlusDos) 
+
+function guestPlusTres() {
+    guestScore += 3
+    guestScoreElement.textContent = guestScore.toString().padStart(2, '0')
+}
+guestPlusThree.addEventListener("click", guestPlusTres) 
