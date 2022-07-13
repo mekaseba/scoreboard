@@ -12,8 +12,8 @@ let guestPlusThree = document.getElementById("guest-plus-three")
 let homeScore = 0
 let guestScore = 0
 
-function homePlusOne() {
+function homePlusUno() {
     homeScore += 1
     homeScoreElement.textContent = homeScore
 }
-homeScoreElement.addEventListener("click", homePlusOne)
+homeScoreElement.addEventListener("click", homePlusUno)
