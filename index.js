@@ -16,3 +16,4 @@ function homePlusOne() {
     homeScore += 1
     homeScoreElement.textContent = homeScore
 }
+homeScoreElement.addEventListener("click", homePlusOne)
