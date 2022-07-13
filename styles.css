@@ -3,7 +3,7 @@
     src: url("CursedTimerUlil-Aznm.ttf");
 }
 body {
-    margin: o;
+    margin: 0;
     height: 100vh;
     background: #1B244A;
 }
@@ -34,7 +34,14 @@ body {
     background: #080001;
     border-radius: 5px;
 }
-.red {
+#home {
+    margin: 0;
+    color: #F94F6D;
+    font-size: 150px;
+    padding-top: 100px;
+    font-weight: lighter;
+}
+#guest {
     margin: 0;
     color: #F94F6D;
     font-size: 150px;
