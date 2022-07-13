@@ -1,10 +1,11 @@
 let homeScoreElement = document.getElementById("home-score-element")
 let guestScoreElement = document.getElementById("guest-score-element")
 
-let home = document.getElementById("home")
-let home = 0
+let homePlusOne = document.getElementById("home-plus-one") 
+let homePlusTwo = document.getElementById("home-plus-two")
+let homePlusThree = document.getElementById("home-plus-three")
 
-function hOne() {
-    hOne += 1
-    hOne.textContent = home
-}
+let guestPlusOne = document.getElementById("guest-plus-one")
+let guestPlusTwo = document.getElementById("guest-plus-two")
+let guestPlusThree = document.getElementById("guest-plus-three")
+
