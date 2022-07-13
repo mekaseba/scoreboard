@@ -34,14 +34,14 @@ body {
     background: #080001;
     border-radius: 5px;
 }
-#home {
+#home-score-element {
     margin: 0;
     color: #F94F6D;
     font-size: 150px;
     padding-top: 100px;
     font-weight: lighter;
 }
-#guest {
+#guest-score-element {
     margin: 0;
     color: #F94F6D;
     font-size: 150px;
