@@ -17,3 +17,9 @@ function homePlusUno() {
     homeScoreElement.textContent = homeScore.toString().padStart(2,'0')
 }
 homePlusOne.addEventListener("click", homePlusUno)
+
+function homePlusDos() {
+    homeScore += 2
+    homeScoreElement.textContent = homeScore.toString().padStart(2, '0')
+}
+homePlusOne.addEventListener("click", homePlusDos) 

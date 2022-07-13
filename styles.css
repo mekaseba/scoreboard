@@ -71,4 +71,5 @@ body {
 }
 p {
     margin: 13px;
+    user-select: none;
 }
