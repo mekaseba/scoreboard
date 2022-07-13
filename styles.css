@@ -1,50 +1,56 @@
 html {
     height: 349px;
 }
+@font-face {
+    font-family: "CursedTimerUlil-Aznm";
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
 body {
-    margin: 0;
+    margin: 100px;
     background: #1B244A;
 }
 .container {
     display: flex;
     justify-content: space-around;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    font-weight: 700;
+    font-family: "CursedTimerUlil-Aznm";
     line-height: 36px;
     letter-spacing: 0cm;
     text-align: center;
     color:#EEEEEE;
 }
 .home {
-    margin: 68px 341px 0 85px;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .guest {
-    margin: 68px 86px 0 340px;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .blk1 {
-    width: 155px;
-    height: 120px;
-    left: 82px;
-    top: 125px;
+    width: 270px;
+    height: 200px;
     background: #080001;
     border-radius: 5px;
 }
 .blk2 {
-    width: 155px;
-    height: 120px;
-    left: 82px;
-    top: 125px;
+    width: 280px;
+    height: 200px;
     background: #080001;
     border-radius: 5px;
 }
 .red1 {
     color: #F94F6D;
-    padding-top: 35px;
+    font-size: 150px;
+    padding-top: 100px;
+    font-weight: lighter;
 }
 .red2 {
     color: #F94F6D;
-    padding-top: 35px;
+    font-size: 150px;
+    padding-top: 100px;
+    font-weight: lighter;
 }
 .lil1 {
     box-sizing: border-box;
