@@ -18,35 +18,22 @@ body {
     text-align: center;
     color:#EEEEEE;
 }
-.home {
+.who {
+    margin: 0;
+    line-height: 80px;
     font-size: 80px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.guest {
-    font-size: 80px;
-    font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.blk1 {
+.blk {
+    margin-top: 20px;
     width: 270px;
     height: 200px;
     background: #080001;
     border-radius: 5px;
 }
-.blk2 {
-    width: 280px;
-    height: 200px;
-    background: #080001;
-    border-radius: 5px;
-}
-.red1 {
-    color: #F94F6D;
-    font-size: 150px;
-    padding-top: 100px;
-    font-weight: lighter;
-}
-.red2 {
+.red {
+    margin: 0;
     color: #F94F6D;
     font-size: 150px;
     padding-top: 100px;
@@ -54,13 +41,11 @@ body {
 }
 .lil1 {
     box-sizing: border-box;
-
     position: absolute;
     width: 45px;
     height: 45px;
     left: 136px;
     top: 271px;
-
     border: 2px solid #9AABD8;
     border-radius: 5px;
 }
