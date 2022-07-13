@@ -59,3 +59,6 @@ body {
     border: 2px solid #9AABD8;
     border-radius: 5px;
 }
+p {
+    margin: 13px;
+}
